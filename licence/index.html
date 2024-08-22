@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Директория на storymap "Мексико"</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--Used fonts - Arimo, Lato from Google fonts.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Code for cleaning wabpage data because without this it can't update if the HTML page has a newer version.-->
+        <script>
+            function cleanWebpageData() {
+                localStorage.clear();
+                document.cookie.split(";").forEach(function(c) {
+                    document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+                });
+                sessionStorage.clear();
+            }
+            window.onload = cleanWebpageData;
+        </script>    
+</head>
+<body>
+    <h2><text style="fill:#000000; letter-spacing:0; font-family:Arimo, Lato, sans-serif; font-size:9; stroke-width:0">Директория на storymap "Мексико"</text></h1>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#ads">Рекламни материали</a>
+              <a href="#music">Мексиканска музика</a>
+              <a href="#licence">Лиценз</a>
+              <a href="zip">Zip архив с всички файлове плюс линкове за storymap-а и директорията</a>
+            </div>
+          </div> 
+</body>
+</html>
