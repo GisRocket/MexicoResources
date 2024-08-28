@@ -22,7 +22,7 @@ requires citation and retention of license
 
 Fonts:
 El Rio Lobo -- free, commercial use permitted, required
-citation and license retention
+citation and license retention; 
 MesoAmerica Dings Font Family - Free, Commercial Permits
 use requires citation and retention of license
 
